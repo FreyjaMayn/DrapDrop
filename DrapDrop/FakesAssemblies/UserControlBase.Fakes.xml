@@ -1,0 +1,2510 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserControlBase.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.UserControlBaseDelegates">
+            <summary>包含用于 UserControlBase 的存根和填充码的自定义委托</summary>
+        </member>
+        <member name="T:UserControlBase.Fakes.ShimPanelBase">
+            <summary>UserControlBase.PanelBase 的填充码类型</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.#ctor(UserControlBase.PanelBase)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:UserControlBase.Fakes.ShimPanelBase.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.AllInstances.DisposeBoolean">
+            <summary>设置 PanelBase.Dispose(PanelBase this, Boolean disposing) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.AllInstances.InitializeComponent">
+            <summary>设置 PanelBase.InitializeComponent(PanelBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.AllInstances.OnDragDropDragEventArgs">
+            <summary>设置 PanelBase.OnDragDrop(PanelBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.AllInstances.OnDragEnterDragEventArgs">
+            <summary>设置 PanelBase.OnDragEnter(PanelBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.AllInstances.UpDatePanel">
+            <summary>设置 PanelBase.UpDatePanel(PanelBase this) 的 填充码</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.Bind(System.ComponentModel.IComponent)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimPanelBase.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.Constructor">
+            <summary>设置 PanelBase.PanelBase(PanelBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.DisposeBoolean">
+            <summary>设置 PanelBase.Dispose(PanelBase this, Boolean disposing) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.InitializeComponent">
+            <summary>设置 PanelBase.InitializeComponent(PanelBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.OnDragDropDragEventArgs">
+            <summary>设置 PanelBase.OnDragDrop(PanelBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.OnDragEnterDragEventArgs">
+            <summary>设置 PanelBase.OnDragEnter(PanelBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimPanelBase.UpDatePanel">
+            <summary>设置 PanelBase.UpDatePanel(PanelBase this) 的 填充码</summary>
+        </member>
+        <member name="T:UserControlBase.Fakes.ShimUserControlBase">
+            <summary>UserControlBase.UserControlBase 的填充码类型</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.#ctor(UserControlBase.UserControlBase)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:UserControlBase.Fakes.ShimUserControlBase.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.IndexGet">
+            <summary>设置 UserControlBase.get_Index(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.IndexSetInt32">
+            <summary>设置 UserControlBase.set_Index(UserControlBase this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.OnDragDropDragEventArgs">
+            <summary>设置 UserControlBase.OnDragDrop(UserControlBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.OnDragEnterDragEventArgs">
+            <summary>设置 UserControlBase.OnDragEnter(UserControlBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.ReSetIndexOfAllInt32">
+            <summary>设置 UserControlBase.ReSetIndexOfAll(UserControlBase this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.ToolNameGet">
+            <summary>设置 UserControlBase.get_ToolName(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.ToolNameSetString">
+            <summary>设置 UserControlBase.set_ToolName(UserControlBase this, String value) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.panelBaseGet">
+            <summary>设置 UserControlBase.get_panelBase(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.AllInstances.panelBaseSetPanelBase">
+            <summary>设置 UserControlBase.set_panelBase(UserControlBase this, PanelBase value) 的 填充码</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.ComponentModel.IComponent)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.ShimUserControlBase.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.Constructor">
+            <summary>设置 UserControlBase.UserControlBase(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.ConstructorPanelBase">
+            <summary>设置 UserControlBase.UserControlBase(UserControlBase this, PanelBase _panel) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.IndexGet">
+            <summary>设置 UserControlBase.get_Index(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.IndexSetInt32">
+            <summary>设置 UserControlBase.set_Index(UserControlBase this, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.OnDragDropDragEventArgs">
+            <summary>设置 UserControlBase.OnDragDrop(UserControlBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.OnDragEnterDragEventArgs">
+            <summary>设置 UserControlBase.OnDragEnter(UserControlBase this, DragEventArgs drgevent) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.ReSetIndexOfAllInt32">
+            <summary>设置 UserControlBase.ReSetIndexOfAll(UserControlBase this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.ToolNameGet">
+            <summary>设置 UserControlBase.get_ToolName(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.ToolNameSetString">
+            <summary>设置 UserControlBase.set_ToolName(UserControlBase this, String value) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.panelBaseGet">
+            <summary>设置 UserControlBase.get_panelBase(UserControlBase this) 的 填充码</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.ShimUserControlBase.panelBaseSetPanelBase">
+            <summary>设置 UserControlBase.set_panelBase(UserControlBase this, PanelBase value) 的 填充码</summary>
+        </member>
+        <member name="T:UserControlBase.Fakes.StubPanelBase">
+            <summary>UserControlBase.PanelBase 的存根类型</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AdjustFormScrollbars(System.Boolean)">
+            <summary>设置 ScrollableControl.AdjustFormScrollbars(ScrollableControl this, Boolean displayScrollbars) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AdjustFormScrollbarsBoolean">
+            <summary>设置 ScrollableControl.AdjustFormScrollbars(ScrollableControl this, Boolean displayScrollbars) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.AllowDrop">
+            <summary>设置 Control.get_AllowDrop(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AllowDropGet">
+            <summary>设置 Control.get_AllowDrop(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AllowDropSetBoolean">
+            <summary>设置 Control.set_AllowDrop(Control this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Anchor">
+            <summary>设置 Control.get_Anchor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AnchorGet">
+            <summary>设置 Control.get_Anchor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AnchorSetAnchorStyles">
+            <summary>设置 Control.set_Anchor(Control this, AnchorStyles value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToAllowDrop">
+            <summary>附加委托以将 StubPanelBase.AllowDrop 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToAnchor">
+            <summary>附加委托以将 StubPanelBase.Anchor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToAutoScroll">
+            <summary>附加委托以将 StubPanelBase.AutoScroll 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToAutoScrollOffset">
+            <summary>附加委托以将 StubPanelBase.AutoScrollOffset 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToAutoSize">
+            <summary>附加委托以将 StubPanelBase.AutoSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToAutoSizeMode">
+            <summary>附加委托以将 StubPanelBase.AutoSizeMode 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToBackColor">
+            <summary>附加委托以将 StubPanelBase.BackColor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToBackgroundImage">
+            <summary>附加委托以将 StubPanelBase.BackgroundImage 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToBackgroundImageLayout">
+            <summary>附加委托以将 StubPanelBase.BackgroundImageLayout 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToBindingContext">
+            <summary>附加委托以将 StubPanelBase.BindingContext 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToContextMenuStrip">
+            <summary>附加委托以将 StubPanelBase.ContextMenuStrip 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToCursor">
+            <summary>附加委托以将 StubPanelBase.Cursor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToDataContext">
+            <summary>附加委托以将 StubPanelBase.DataContext 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToDock">
+            <summary>附加委托以将 StubPanelBase.Dock 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToDoubleBuffered">
+            <summary>附加委托以将 StubPanelBase.DoubleBuffered 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToFont">
+            <summary>附加委托以将 StubPanelBase.Font 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToForeColor">
+            <summary>附加委托以将 StubPanelBase.ForeColor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToImeModeBase">
+            <summary>附加委托以将 StubPanelBase.ImeModeBase 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToMaximumSize">
+            <summary>附加委托以将 StubPanelBase.MaximumSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToMinimumSize">
+            <summary>附加委托以将 StubPanelBase.MinimumSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToRightToLeft">
+            <summary>附加委托以将 StubPanelBase.RightToLeft 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToSite">
+            <summary>附加委托以将 StubPanelBase.Site 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.AttachBackingFieldToText">
+            <summary>附加委托以将 StubPanelBase.Text 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.AutoScroll">
+            <summary>设置 ScrollableControl.get_AutoScroll(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoScrollGet">
+            <summary>设置 ScrollableControl.get_AutoScroll(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.AutoScrollOffset">
+            <summary>设置 Control.get_AutoScrollOffset(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoScrollOffsetGet">
+            <summary>设置 Control.get_AutoScrollOffset(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoScrollOffsetSetPoint">
+            <summary>设置 Control.set_AutoScrollOffset(Control this, Point value) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoScrollSetBoolean">
+            <summary>设置 ScrollableControl.set_AutoScroll(ScrollableControl this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.AutoSize">
+            <summary>设置 Panel.get_AutoSize(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoSizeGet">
+            <summary>设置 Panel.get_AutoSize(Panel this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.AutoSizeMode">
+            <summary>设置 Panel.get_AutoSizeMode(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoSizeModeGet">
+            <summary>设置 Panel.get_AutoSizeMode(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoSizeModeSetAutoSizeMode">
+            <summary>设置 Panel.set_AutoSizeMode(Panel this, AutoSizeMode value) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.AutoSizeSetBoolean">
+            <summary>设置 Panel.set_AutoSize(Panel this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.BackColor">
+            <summary>设置 Control.get_BackColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BackColorGet">
+            <summary>设置 Control.get_BackColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BackColorSetColor">
+            <summary>设置 Control.set_BackColor(Control this, Color value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.BackgroundImage">
+            <summary>设置 Control.get_BackgroundImage(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BackgroundImageGet">
+            <summary>设置 Control.get_BackgroundImage(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.BackgroundImageLayout">
+            <summary>设置 Control.get_BackgroundImageLayout(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BackgroundImageLayoutGet">
+            <summary>设置 Control.get_BackgroundImageLayout(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BackgroundImageLayoutSetImageLayout">
+            <summary>设置 Control.set_BackgroundImageLayout(Control this, ImageLayout value) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BackgroundImageSetImage">
+            <summary>设置 Control.set_BackgroundImage(Control this, Image value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.BindingContext">
+            <summary>设置 Control.get_BindingContext(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BindingContextGet">
+            <summary>设置 Control.get_BindingContext(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.BindingContextSetBindingContext">
+            <summary>设置 Control.set_BindingContext(Control this, BindingContext value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.CanEnableIme">
+            <summary>设置 Control.get_CanEnableIme(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CanEnableImeGet">
+            <summary>设置 Control.get_CanEnableIme(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.CanRaiseEvents">
+            <summary>设置 Control.get_CanRaiseEvents(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CanRaiseEventsGet">
+            <summary>设置 Control.get_CanRaiseEvents(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.ContextMenuStrip">
+            <summary>设置 Control.get_ContextMenuStrip(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ContextMenuStripGet">
+            <summary>设置 Control.get_ContextMenuStrip(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ContextMenuStripSetContextMenuStrip">
+            <summary>设置 Control.set_ContextMenuStrip(Control this, ContextMenuStrip value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.CreateAccessibilityInstance">
+            <summary>设置 Panel.CreateAccessibilityInstance(Panel this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CreateAccessibilityInstance01">
+            <summary>设置 Panel.CreateAccessibilityInstance(Panel this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.CreateControlsInstance">
+            <summary>设置 Control.CreateControlsInstance(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CreateControlsInstance01">
+            <summary>设置 Control.CreateControlsInstance(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.CreateHandle">
+            <summary>设置 Control.CreateHandle(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CreateHandle01">
+            <summary>设置 Control.CreateHandle(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.CreateParams">
+            <summary>设置 Panel.get_CreateParams(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CreateParamsGet">
+            <summary>设置 Panel.get_CreateParams(Panel this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Cursor">
+            <summary>设置 Control.get_Cursor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CursorGet">
+            <summary>设置 Control.get_Cursor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.CursorSetCursor">
+            <summary>设置 Control.set_Cursor(Control this, Cursor value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DataContext">
+            <summary>设置 Control.get_DataContext(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DataContextGet">
+            <summary>设置 Control.get_DataContext(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DataContextSetObject">
+            <summary>设置 Control.set_DataContext(Control this, Object value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>设置 Control.DefWndProc(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefWndProcMessageRef">
+            <summary>设置 Control.DefWndProc(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultCursor">
+            <summary>设置 Control.get_DefaultCursor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultCursorGet">
+            <summary>设置 Control.get_DefaultCursor(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultImeMode">
+            <summary>设置 Control.get_DefaultImeMode(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultImeModeGet">
+            <summary>设置 Control.get_DefaultImeMode(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultMargin">
+            <summary>设置 Control.get_DefaultMargin(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultMarginGet">
+            <summary>设置 Control.get_DefaultMargin(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultMaximumSize">
+            <summary>设置 Control.get_DefaultMaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultMaximumSizeGet">
+            <summary>设置 Control.get_DefaultMaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultMinimumSize">
+            <summary>设置 Control.get_DefaultMinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultMinimumSizeGet">
+            <summary>设置 Control.get_DefaultMinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultPadding">
+            <summary>设置 Control.get_DefaultPadding(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultPaddingGet">
+            <summary>设置 Control.get_DefaultPadding(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DefaultSize">
+            <summary>设置 Panel.get_DefaultSize(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DefaultSizeGet">
+            <summary>设置 Panel.get_DefaultSize(Panel this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.DestroyHandle">
+            <summary>设置 Control.DestroyHandle(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DestroyHandle01">
+            <summary>设置 Control.DestroyHandle(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DisplayRectangle">
+            <summary>设置 ScrollableControl.get_DisplayRectangle(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DisplayRectangleGet">
+            <summary>设置 ScrollableControl.get_DisplayRectangle(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.Dispose(System.Boolean)">
+            <summary>设置 PanelBase.Dispose(PanelBase this, Boolean disposing) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DisposeBoolean">
+            <summary>设置 PanelBase.Dispose(PanelBase this, Boolean disposing) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Dock">
+            <summary>设置 Control.get_Dock(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DockGet">
+            <summary>设置 Control.get_Dock(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DockSetDockStyle">
+            <summary>设置 Control.set_Dock(Control this, DockStyle value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.DoubleBuffered">
+            <summary>设置 Control.get_DoubleBuffered(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DoubleBufferedGet">
+            <summary>设置 Control.get_DoubleBuffered(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.DoubleBufferedSetBoolean">
+            <summary>设置 Control.set_DoubleBuffered(Control this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Focused">
+            <summary>设置 Control.get_Focused(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.FocusedGet">
+            <summary>设置 Control.get_Focused(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Font">
+            <summary>设置 Control.get_Font(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.FontGet">
+            <summary>设置 Control.get_Font(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.FontSetFont">
+            <summary>设置 Control.set_Font(Control this, Font value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.ForeColor">
+            <summary>设置 Control.get_ForeColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ForeColorGet">
+            <summary>设置 Control.get_ForeColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ForeColorSetColor">
+            <summary>设置 Control.set_ForeColor(Control this, Color value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.GetAccessibilityObjectById(System.Int32)">
+            <summary>设置 Control.GetAccessibilityObjectById(Control this, Int32 objectId) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.GetAccessibilityObjectByIdInt32">
+            <summary>设置 Control.GetAccessibilityObjectById(Control this, Int32 objectId) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.GetPreferredSize(System.Drawing.Size)">
+            <summary>设置 Control.GetPreferredSize(Control this, Size proposedSize) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.GetPreferredSizeSize">
+            <summary>设置 Control.GetPreferredSize(Control this, Size proposedSize) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 Control.GetScaledBounds(Control this, Rectangle bounds, SizeF factor, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>设置 Control.GetScaledBounds(Control this, Rectangle bounds, SizeF factor, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.GetService(System.Type)">
+            <summary>设置 Component.GetService(Component this, Type service) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.GetServiceType">
+            <summary>设置 Component.GetService(Component this, Type service) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.ImeModeBase">
+            <summary>设置 Control.get_ImeModeBase(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ImeModeBaseGet">
+            <summary>设置 Control.get_ImeModeBase(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ImeModeBaseSetImeMode">
+            <summary>设置 Control.set_ImeModeBase(Control this, ImeMode value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.InitLayout">
+            <summary>设置 Control.InitLayout(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.InitLayout01">
+            <summary>设置 Control.InitLayout(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.InitializeStub">
+            <summary>初始化 type StubPanelBase 的新实例</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.IsInputChar(System.Char)">
+            <summary>设置 Control.IsInputChar(Control this, Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.IsInputCharChar">
+            <summary>设置 Control.IsInputChar(Control this, Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>设置 Control.IsInputKey(Control this, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.IsInputKeyKeys">
+            <summary>设置 Control.IsInputKey(Control this, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.LayoutEngine">
+            <summary>设置 Control.get_LayoutEngine(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.LayoutEngineGet">
+            <summary>设置 Control.get_LayoutEngine(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.MaximumSize">
+            <summary>设置 Control.get_MaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.MaximumSizeGet">
+            <summary>设置 Control.get_MaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.MaximumSizeSetSize">
+            <summary>设置 Control.set_MaximumSize(Control this, Size value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.MinimumSize">
+            <summary>设置 Control.get_MinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.MinimumSizeGet">
+            <summary>设置 Control.get_MinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.MinimumSizeSetSize">
+            <summary>设置 Control.set_MinimumSize(Control this, Size value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>设置 Control.NotifyInvalidate(Control this, Rectangle invalidatedArea) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.NotifyInvalidateRectangle">
+            <summary>设置 Control.NotifyInvalidate(Control this, Rectangle invalidatedArea) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnAutoSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnAutoSizeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnAutoSizeChangedEventArgs">
+            <summary>设置 Control.OnAutoSizeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnBackColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnBackColorChangedEventArgs">
+            <summary>设置 Control.OnBackColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackgroundImageChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnBackgroundImageChangedEventArgs">
+            <summary>设置 Control.OnBackgroundImageChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackgroundImageLayoutChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>设置 Control.OnBackgroundImageLayoutChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnBindingContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnBindingContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnBindingContextChangedEventArgs">
+            <summary>设置 Control.OnBindingContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnCausesValidationChanged(System.EventArgs)">
+            <summary>设置 Control.OnCausesValidationChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnCausesValidationChangedEventArgs">
+            <summary>设置 Control.OnCausesValidationChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>设置 Control.OnChangeUICues(Control this, UICuesEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnChangeUICuesUICuesEventArgs">
+            <summary>设置 Control.OnChangeUICues(Control this, UICuesEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnClick(System.EventArgs)">
+            <summary>设置 Control.OnClick(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnClickEventArgs">
+            <summary>设置 Control.OnClick(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnClientSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnClientSizeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnClientSizeChangedEventArgs">
+            <summary>设置 Control.OnClientSizeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>设置 Control.OnContextMenuStripChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnContextMenuStripChangedEventArgs">
+            <summary>设置 Control.OnContextMenuStripChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>设置 Control.OnControlAdded(Control this, ControlEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnControlAddedControlEventArgs">
+            <summary>设置 Control.OnControlAdded(Control this, ControlEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>设置 Control.OnControlRemoved(Control this, ControlEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnControlRemovedControlEventArgs">
+            <summary>设置 Control.OnControlRemoved(Control this, ControlEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnCreateControl">
+            <summary>设置 Control.OnCreateControl(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnCreateControl01">
+            <summary>设置 Control.OnCreateControl(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnCursorChanged(System.EventArgs)">
+            <summary>设置 Control.OnCursorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnCursorChangedEventArgs">
+            <summary>设置 Control.OnCursorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDataContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnDataContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDataContextChangedEventArgs">
+            <summary>设置 Control.OnDataContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDockChanged(System.EventArgs)">
+            <summary>设置 Control.OnDockChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDockChangedEventArgs">
+            <summary>设置 Control.OnDockChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDoubleClick(System.EventArgs)">
+            <summary>设置 Control.OnDoubleClick(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDoubleClickEventArgs">
+            <summary>设置 Control.OnDoubleClick(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDpiChangedAfterParent(System.EventArgs)">
+            <summary>设置 Control.OnDpiChangedAfterParent(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDpiChangedAfterParentEventArgs">
+            <summary>设置 Control.OnDpiChangedAfterParent(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDpiChangedBeforeParent(System.EventArgs)">
+            <summary>设置 Control.OnDpiChangedBeforeParent(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDpiChangedBeforeParentEventArgs">
+            <summary>设置 Control.OnDpiChangedBeforeParent(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 PanelBase.OnDragDrop(PanelBase this, DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDragDropDragEventArgs">
+            <summary>设置 PanelBase.OnDragDrop(PanelBase this, DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 PanelBase.OnDragEnter(PanelBase this, DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDragEnterDragEventArgs">
+            <summary>设置 PanelBase.OnDragEnter(PanelBase this, DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDragLeave(System.EventArgs)">
+            <summary>设置 Control.OnDragLeave(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDragLeaveEventArgs">
+            <summary>设置 Control.OnDragLeave(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 Control.OnDragOver(Control this, DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnDragOverDragEventArgs">
+            <summary>设置 Control.OnDragOver(Control this, DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnEnabledChanged(System.EventArgs)">
+            <summary>设置 Control.OnEnabledChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnEnabledChangedEventArgs">
+            <summary>设置 Control.OnEnabledChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnEnter(System.EventArgs)">
+            <summary>设置 Control.OnEnter(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnEnterEventArgs">
+            <summary>设置 Control.OnEnter(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnFontChanged(System.EventArgs)">
+            <summary>设置 Control.OnFontChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnFontChangedEventArgs">
+            <summary>设置 Control.OnFontChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnForeColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnForeColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnForeColorChangedEventArgs">
+            <summary>设置 Control.OnForeColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>设置 Control.OnGiveFeedback(Control this, GiveFeedbackEventArgs gfbevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>设置 Control.OnGiveFeedback(Control this, GiveFeedbackEventArgs gfbevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnGotFocus(System.EventArgs)">
+            <summary>设置 Control.OnGotFocus(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnGotFocusEventArgs">
+            <summary>设置 Control.OnGotFocus(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnHandleCreated(System.EventArgs)">
+            <summary>设置 Control.OnHandleCreated(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnHandleCreatedEventArgs">
+            <summary>设置 Control.OnHandleCreated(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnHandleDestroyed(System.EventArgs)">
+            <summary>设置 Control.OnHandleDestroyed(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnHandleDestroyedEventArgs">
+            <summary>设置 Control.OnHandleDestroyed(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>设置 Control.OnHelpRequested(Control this, HelpEventArgs hevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnHelpRequestedHelpEventArgs">
+            <summary>设置 Control.OnHelpRequested(Control this, HelpEventArgs hevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnImeModeChanged(System.EventArgs)">
+            <summary>设置 Control.OnImeModeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnImeModeChangedEventArgs">
+            <summary>设置 Control.OnImeModeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>设置 Control.OnInvalidated(Control this, InvalidateEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnInvalidatedInvalidateEventArgs">
+            <summary>设置 Control.OnInvalidated(Control this, InvalidateEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>设置 Control.OnKeyDown(Control this, KeyEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnKeyDownKeyEventArgs">
+            <summary>设置 Control.OnKeyDown(Control this, KeyEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>设置 Control.OnKeyPress(Control this, KeyPressEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnKeyPressKeyPressEventArgs">
+            <summary>设置 Control.OnKeyPress(Control this, KeyPressEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>设置 Control.OnKeyUp(Control this, KeyEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnKeyUpKeyEventArgs">
+            <summary>设置 Control.OnKeyUp(Control this, KeyEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>设置 ScrollableControl.OnLayout(ScrollableControl this, LayoutEventArgs levent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnLayoutLayoutEventArgs">
+            <summary>设置 ScrollableControl.OnLayout(ScrollableControl this, LayoutEventArgs levent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnLeave(System.EventArgs)">
+            <summary>设置 Control.OnLeave(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnLeaveEventArgs">
+            <summary>设置 Control.OnLeave(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnLocationChanged(System.EventArgs)">
+            <summary>设置 Control.OnLocationChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnLocationChangedEventArgs">
+            <summary>设置 Control.OnLocationChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnLostFocus(System.EventArgs)">
+            <summary>设置 Control.OnLostFocus(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnLostFocusEventArgs">
+            <summary>设置 Control.OnLostFocus(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMarginChanged(System.EventArgs)">
+            <summary>设置 Control.OnMarginChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMarginChangedEventArgs">
+            <summary>设置 Control.OnMarginChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>设置 Control.OnMouseCaptureChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseCaptureChangedEventArgs">
+            <summary>设置 Control.OnMouseCaptureChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseClick(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseClickMouseEventArgs">
+            <summary>设置 Control.OnMouseClick(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseDoubleClick(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseDoubleClickMouseEventArgs">
+            <summary>设置 Control.OnMouseDoubleClick(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseDown(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseDownMouseEventArgs">
+            <summary>设置 Control.OnMouseDown(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseEnter(System.EventArgs)">
+            <summary>设置 Control.OnMouseEnter(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseEnterEventArgs">
+            <summary>设置 Control.OnMouseEnter(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseHover(System.EventArgs)">
+            <summary>设置 Control.OnMouseHover(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseHoverEventArgs">
+            <summary>设置 Control.OnMouseHover(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseLeave(System.EventArgs)">
+            <summary>设置 Control.OnMouseLeave(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseLeaveEventArgs">
+            <summary>设置 Control.OnMouseLeave(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseMove(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseMoveMouseEventArgs">
+            <summary>设置 Control.OnMouseMove(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseUp(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseUpMouseEventArgs">
+            <summary>设置 Control.OnMouseUp(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 ScrollableControl.OnMouseWheel(ScrollableControl this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMouseWheelMouseEventArgs">
+            <summary>设置 ScrollableControl.OnMouseWheel(ScrollableControl this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnMove(System.EventArgs)">
+            <summary>设置 Control.OnMove(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnMoveEventArgs">
+            <summary>设置 Control.OnMove(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>设置 Control.OnNotifyMessage(Control this, Message m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnNotifyMessageMessage">
+            <summary>设置 Control.OnNotifyMessage(Control this, Message m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnPaddingChanged(System.EventArgs)">
+            <summary>设置 ScrollableControl.OnPaddingChanged(ScrollableControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnPaddingChangedEventArgs">
+            <summary>设置 ScrollableControl.OnPaddingChanged(ScrollableControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPaint(Control this, PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 ScrollableControl.OnPaintBackground(ScrollableControl this, PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnPaintBackgroundPaintEventArgs">
+            <summary>设置 ScrollableControl.OnPaintBackground(ScrollableControl this, PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnPaintPaintEventArgs">
+            <summary>设置 Control.OnPaint(Control this, PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentBackColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBackColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentBackColorChangedEventArgs">
+            <summary>设置 Control.OnParentBackColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBackgroundImageChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentBackgroundImageChangedEventArgs">
+            <summary>设置 Control.OnParentBackgroundImageChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBindingContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentBindingContextChangedEventArgs">
+            <summary>设置 Control.OnParentBindingContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentChangedEventArgs">
+            <summary>设置 Control.OnParentChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentCursorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentCursorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentCursorChangedEventArgs">
+            <summary>设置 Control.OnParentCursorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentDataContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentDataContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentDataContextChangedEventArgs">
+            <summary>设置 Control.OnParentDataContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentEnabledChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentEnabledChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentEnabledChangedEventArgs">
+            <summary>设置 Control.OnParentEnabledChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentFontChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentFontChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentFontChangedEventArgs">
+            <summary>设置 Control.OnParentFontChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentForeColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentForeColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentForeColorChangedEventArgs">
+            <summary>设置 Control.OnParentForeColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentRightToLeftChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentRightToLeftChangedEventArgs">
+            <summary>设置 Control.OnParentRightToLeftChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnParentVisibleChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentVisibleChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnParentVisibleChangedEventArgs">
+            <summary>设置 Control.OnParentVisibleChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>设置 Control.OnPreviewKeyDown(Control this, PreviewKeyDownEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>设置 Control.OnPreviewKeyDown(Control this, PreviewKeyDownEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPrint(Control this, PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnPrintPaintEventArgs">
+            <summary>设置 Control.OnPrint(Control this, PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>设置 Control.OnQueryContinueDrag(Control this, QueryContinueDragEventArgs qcdevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>设置 Control.OnQueryContinueDrag(Control this, QueryContinueDragEventArgs qcdevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnRegionChanged(System.EventArgs)">
+            <summary>设置 Control.OnRegionChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnRegionChangedEventArgs">
+            <summary>设置 Control.OnRegionChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnResize(System.EventArgs)">
+            <summary>设置 Panel.OnResize(Panel this, EventArgs eventargs) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnResizeEventArgs">
+            <summary>设置 Panel.OnResize(Panel this, EventArgs eventargs) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnRightToLeftChanged(System.EventArgs)">
+            <summary>设置 ScrollableControl.OnRightToLeftChanged(ScrollableControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnRightToLeftChangedEventArgs">
+            <summary>设置 ScrollableControl.OnRightToLeftChanged(ScrollableControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>设置 ScrollableControl.OnScroll(ScrollableControl this, ScrollEventArgs se) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnScrollScrollEventArgs">
+            <summary>设置 ScrollableControl.OnScroll(ScrollableControl this, ScrollEventArgs se) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnSizeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnSizeChangedEventArgs">
+            <summary>设置 Control.OnSizeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnStyleChanged(System.EventArgs)">
+            <summary>设置 Control.OnStyleChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnStyleChangedEventArgs">
+            <summary>设置 Control.OnStyleChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnSystemColorsChanged(System.EventArgs)">
+            <summary>设置 Control.OnSystemColorsChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnSystemColorsChangedEventArgs">
+            <summary>设置 Control.OnSystemColorsChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnTabIndexChanged(System.EventArgs)">
+            <summary>设置 Control.OnTabIndexChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnTabIndexChangedEventArgs">
+            <summary>设置 Control.OnTabIndexChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnTabStopChanged(System.EventArgs)">
+            <summary>设置 Control.OnTabStopChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnTabStopChangedEventArgs">
+            <summary>设置 Control.OnTabStopChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnTextChanged(System.EventArgs)">
+            <summary>设置 Control.OnTextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnTextChangedEventArgs">
+            <summary>设置 Control.OnTextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnValidated(System.EventArgs)">
+            <summary>设置 Control.OnValidated(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnValidatedEventArgs">
+            <summary>设置 Control.OnValidated(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>设置 Control.OnValidating(Control this, CancelEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnValidatingCancelEventArgs">
+            <summary>设置 Control.OnValidating(Control this, CancelEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.OnVisibleChanged(System.EventArgs)">
+            <summary>设置 ScrollableControl.OnVisibleChanged(ScrollableControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.OnVisibleChangedEventArgs">
+            <summary>设置 ScrollableControl.OnVisibleChanged(ScrollableControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>设置 Control.PreProcessMessage(Control this, Message* msg) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.PreProcessMessageMessageRef">
+            <summary>设置 Control.PreProcessMessage(Control this, Message* msg) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>设置 Control.ProcessCmdKey(Control this, Message* msg, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessCmdKeyMessageRefKeys">
+            <summary>设置 Control.ProcessCmdKey(Control this, Message* msg, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessDialogChar(System.Char)">
+            <summary>设置 Control.ProcessDialogChar(Control this, Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessDialogCharChar">
+            <summary>设置 Control.ProcessDialogChar(Control this, Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>设置 Control.ProcessDialogKey(Control this, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessDialogKeyKeys">
+            <summary>设置 Control.ProcessDialogKey(Control this, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyEventArgs(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessKeyEventArgsMessageRef">
+            <summary>设置 Control.ProcessKeyEventArgs(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyMessage(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessKeyMessageMessageRef">
+            <summary>设置 Control.ProcessKeyMessage(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyPreview(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessKeyPreviewMessageRef">
+            <summary>设置 Control.ProcessKeyPreview(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ProcessMnemonic(System.Char)">
+            <summary>设置 Control.ProcessMnemonic(Control this, Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ProcessMnemonicChar">
+            <summary>设置 Control.ProcessMnemonic(Control this, Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.Refresh">
+            <summary>设置 Control.Refresh(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.Refresh01">
+            <summary>设置 Control.Refresh(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.RescaleConstantsForDpi(System.Int32,System.Int32)">
+            <summary>设置 Control.RescaleConstantsForDpi(Control this, Int32 deviceDpiOld, Int32 deviceDpiNew) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.RescaleConstantsForDpiInt32Int32">
+            <summary>设置 Control.RescaleConstantsForDpi(Control this, Int32 deviceDpiOld, Int32 deviceDpiNew) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ResetBackColor">
+            <summary>设置 Control.ResetBackColor(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ResetBackColor01">
+            <summary>设置 Control.ResetBackColor(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ResetCursor">
+            <summary>设置 Control.ResetCursor(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ResetCursor01">
+            <summary>设置 Control.ResetCursor(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ResetFont">
+            <summary>设置 Control.ResetFont(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ResetFont01">
+            <summary>设置 Control.ResetFont(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ResetForeColor">
+            <summary>设置 Control.ResetForeColor(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ResetForeColor01">
+            <summary>设置 Control.ResetForeColor(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ResetRightToLeft">
+            <summary>设置 Control.ResetRightToLeft(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ResetRightToLeft01">
+            <summary>设置 Control.ResetRightToLeft(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ResetText">
+            <summary>设置 Control.ResetText(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ResetText01">
+            <summary>设置 Control.ResetText(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.RightToLeft">
+            <summary>设置 Control.get_RightToLeft(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.RightToLeftGet">
+            <summary>设置 Control.get_RightToLeft(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.RightToLeftSetRightToLeft">
+            <summary>设置 Control.set_RightToLeft(Control this, RightToLeft value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.ScaleChildren">
+            <summary>设置 Control.get_ScaleChildren(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ScaleChildrenGet">
+            <summary>设置 Control.get_ScaleChildren(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 ScrollableControl.ScaleControl(ScrollableControl this, SizeF factor, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ScaleControlSizeFBoundsSpecified">
+            <summary>设置 ScrollableControl.ScaleControl(ScrollableControl this, SizeF factor, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ScaleCore(System.Single,System.Single)">
+            <summary>设置 ScrollableControl.ScaleCore(ScrollableControl this, Single dx, Single dy) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ScaleCoreSingleSingle">
+            <summary>设置 ScrollableControl.ScaleCore(ScrollableControl this, Single dx, Single dy) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>设置 ScrollableControl.ScrollToControl(ScrollableControl this, Control activeControl) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ScrollToControlControl">
+            <summary>设置 ScrollableControl.ScrollToControl(ScrollableControl this, Control activeControl) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.Select(System.Boolean,System.Boolean)">
+            <summary>设置 Control.Select(Control this, Boolean directed, Boolean forward) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SelectBooleanBoolean">
+            <summary>设置 Control.Select(Control this, Boolean directed, Boolean forward) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 Control.SetBoundsCore(Control this, Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>设置 Control.SetBoundsCore(Control this, Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>设置 Control.SetClientSizeCore(Control this, Int32 x, Int32 y) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SetClientSizeCoreInt32Int32">
+            <summary>设置 Control.SetClientSizeCore(Control this, Int32 x, Int32 y) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.SetVisibleCore(System.Boolean)">
+            <summary>设置 Control.SetVisibleCore(Control this, Boolean value) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SetVisibleCoreBoolean">
+            <summary>设置 Control.SetVisibleCore(Control this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.ShowFocusCues">
+            <summary>设置 Control.get_ShowFocusCues(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ShowFocusCuesGet">
+            <summary>设置 Control.get_ShowFocusCues(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.ShowKeyboardCues">
+            <summary>设置 Control.get_ShowKeyboardCues(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ShowKeyboardCuesGet">
+            <summary>设置 Control.get_ShowKeyboardCues(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Site">
+            <summary>设置 Control.get_Site(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SiteGet">
+            <summary>设置 Control.get_Site(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SiteSetISite">
+            <summary>设置 Control.set_Site(Control this, ISite value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.SizeFromClientSize(System.Drawing.Size)">
+            <summary>设置 Control.SizeFromClientSize(Control this, Size clientSize) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.SizeFromClientSizeSize">
+            <summary>设置 Control.SizeFromClientSize(Control this, Size clientSize) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubPanelBase.Text">
+            <summary>设置 Panel.get_Text(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.TextGet">
+            <summary>设置 Panel.get_Text(Panel this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.TextSetString">
+            <summary>设置 Panel.set_Text(Panel this, String value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.ToString">
+            <summary>设置 Panel.ToString(Panel this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.ToString01">
+            <summary>设置 Panel.ToString(Panel this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubPanelBase.WndProc(System.Windows.Forms.Message@)">
+            <summary>设置 ScrollableControl.WndProc(ScrollableControl this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubPanelBase.WndProcMessageRef">
+            <summary>设置 ScrollableControl.WndProc(ScrollableControl this, Message* m) 的 stub</summary>
+        </member>
+        <member name="T:UserControlBase.Fakes.StubUserControlBase">
+            <summary>UserControlBase.UserControlBase 的存根类型</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.#ctor(UserControlBase.PanelBase)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AdjustFormScrollbars(System.Boolean)">
+            <summary>设置 ContainerControl.AdjustFormScrollbars(ContainerControl this, Boolean displayScrollbars) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AdjustFormScrollbarsBoolean">
+            <summary>设置 ContainerControl.AdjustFormScrollbars(ContainerControl this, Boolean displayScrollbars) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.AllowDrop">
+            <summary>设置 Control.get_AllowDrop(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AllowDropGet">
+            <summary>设置 Control.get_AllowDrop(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AllowDropSetBoolean">
+            <summary>设置 Control.set_AllowDrop(Control this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Anchor">
+            <summary>设置 Control.get_Anchor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AnchorGet">
+            <summary>设置 Control.get_Anchor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AnchorSetAnchorStyles">
+            <summary>设置 Control.set_Anchor(Control this, AnchorStyles value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToAllowDrop">
+            <summary>附加委托以将 StubUserControlBase.AllowDrop 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToAnchor">
+            <summary>附加委托以将 StubUserControlBase.Anchor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToAutoScroll">
+            <summary>附加委托以将 StubUserControlBase.AutoScroll 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToAutoScrollOffset">
+            <summary>附加委托以将 StubUserControlBase.AutoScrollOffset 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToAutoSize">
+            <summary>附加委托以将 StubUserControlBase.AutoSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToAutoValidate">
+            <summary>附加委托以将 StubUserControlBase.AutoValidate 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToBackColor">
+            <summary>附加委托以将 StubUserControlBase.BackColor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToBackgroundImage">
+            <summary>附加委托以将 StubUserControlBase.BackgroundImage 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToBackgroundImageLayout">
+            <summary>附加委托以将 StubUserControlBase.BackgroundImageLayout 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToBindingContext">
+            <summary>附加委托以将 StubUserControlBase.BindingContext 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToContextMenuStrip">
+            <summary>附加委托以将 StubUserControlBase.ContextMenuStrip 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToCursor">
+            <summary>附加委托以将 StubUserControlBase.Cursor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToDataContext">
+            <summary>附加委托以将 StubUserControlBase.DataContext 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToDock">
+            <summary>附加委托以将 StubUserControlBase.Dock 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToDoubleBuffered">
+            <summary>附加委托以将 StubUserControlBase.DoubleBuffered 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToFont">
+            <summary>附加委托以将 StubUserControlBase.Font 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToForeColor">
+            <summary>附加委托以将 StubUserControlBase.ForeColor 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToImeModeBase">
+            <summary>附加委托以将 StubUserControlBase.ImeModeBase 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToMaximumSize">
+            <summary>附加委托以将 StubUserControlBase.MaximumSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToMinimumSize">
+            <summary>附加委托以将 StubUserControlBase.MinimumSize 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToRightToLeft">
+            <summary>附加委托以将 StubUserControlBase.RightToLeft 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToSite">
+            <summary>附加委托以将 StubUserControlBase.Site 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.AttachBackingFieldToText">
+            <summary>附加委托以将 StubUserControlBase.Text 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.AutoScroll">
+            <summary>设置 ScrollableControl.get_AutoScroll(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoScrollGet">
+            <summary>设置 ScrollableControl.get_AutoScroll(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.AutoScrollOffset">
+            <summary>设置 Control.get_AutoScrollOffset(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoScrollOffsetGet">
+            <summary>设置 Control.get_AutoScrollOffset(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoScrollOffsetSetPoint">
+            <summary>设置 Control.set_AutoScrollOffset(Control this, Point value) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoScrollSetBoolean">
+            <summary>设置 ScrollableControl.set_AutoScroll(ScrollableControl this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.AutoSize">
+            <summary>设置 UserControl.get_AutoSize(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoSizeGet">
+            <summary>设置 UserControl.get_AutoSize(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoSizeSetBoolean">
+            <summary>设置 UserControl.set_AutoSize(UserControl this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.AutoValidate">
+            <summary>设置 UserControl.get_AutoValidate(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoValidateGet">
+            <summary>设置 UserControl.get_AutoValidate(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.AutoValidateSetAutoValidate">
+            <summary>设置 UserControl.set_AutoValidate(UserControl this, AutoValidate value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.BackColor">
+            <summary>设置 Control.get_BackColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BackColorGet">
+            <summary>设置 Control.get_BackColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BackColorSetColor">
+            <summary>设置 Control.set_BackColor(Control this, Color value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.BackgroundImage">
+            <summary>设置 Control.get_BackgroundImage(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BackgroundImageGet">
+            <summary>设置 Control.get_BackgroundImage(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.BackgroundImageLayout">
+            <summary>设置 Control.get_BackgroundImageLayout(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BackgroundImageLayoutGet">
+            <summary>设置 Control.get_BackgroundImageLayout(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BackgroundImageLayoutSetImageLayout">
+            <summary>设置 Control.set_BackgroundImageLayout(Control this, ImageLayout value) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BackgroundImageSetImage">
+            <summary>设置 Control.set_BackgroundImage(Control this, Image value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.BindingContext">
+            <summary>设置 ContainerControl.get_BindingContext(ContainerControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BindingContextGet">
+            <summary>设置 ContainerControl.get_BindingContext(ContainerControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.BindingContextSetBindingContext">
+            <summary>设置 ContainerControl.set_BindingContext(ContainerControl this, BindingContext value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.CanEnableIme">
+            <summary>设置 ContainerControl.get_CanEnableIme(ContainerControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CanEnableImeGet">
+            <summary>设置 ContainerControl.get_CanEnableIme(ContainerControl this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.CanRaiseEvents">
+            <summary>设置 Control.get_CanRaiseEvents(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CanRaiseEventsGet">
+            <summary>设置 Control.get_CanRaiseEvents(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.ContextMenuStrip">
+            <summary>设置 Control.get_ContextMenuStrip(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ContextMenuStripGet">
+            <summary>设置 Control.get_ContextMenuStrip(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ContextMenuStripSetContextMenuStrip">
+            <summary>设置 Control.set_ContextMenuStrip(Control this, ContextMenuStrip value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.CreateAccessibilityInstance">
+            <summary>设置 Control.CreateAccessibilityInstance(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CreateAccessibilityInstance01">
+            <summary>设置 Control.CreateAccessibilityInstance(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.CreateControlsInstance">
+            <summary>设置 Control.CreateControlsInstance(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CreateControlsInstance01">
+            <summary>设置 Control.CreateControlsInstance(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.CreateHandle">
+            <summary>设置 Control.CreateHandle(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CreateHandle01">
+            <summary>设置 Control.CreateHandle(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.CreateParams">
+            <summary>设置 UserControl.get_CreateParams(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CreateParamsGet">
+            <summary>设置 UserControl.get_CreateParams(UserControl this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Cursor">
+            <summary>设置 Control.get_Cursor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CursorGet">
+            <summary>设置 Control.get_Cursor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.CursorSetCursor">
+            <summary>设置 Control.set_Cursor(Control this, Cursor value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DataContext">
+            <summary>设置 Control.get_DataContext(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DataContextGet">
+            <summary>设置 Control.get_DataContext(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DataContextSetObject">
+            <summary>设置 Control.set_DataContext(Control this, Object value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>设置 Control.DefWndProc(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefWndProcMessageRef">
+            <summary>设置 Control.DefWndProc(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultCursor">
+            <summary>设置 Control.get_DefaultCursor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultCursorGet">
+            <summary>设置 Control.get_DefaultCursor(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultImeMode">
+            <summary>设置 Control.get_DefaultImeMode(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultImeModeGet">
+            <summary>设置 Control.get_DefaultImeMode(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultMargin">
+            <summary>设置 Control.get_DefaultMargin(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultMarginGet">
+            <summary>设置 Control.get_DefaultMargin(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultMaximumSize">
+            <summary>设置 Control.get_DefaultMaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultMaximumSizeGet">
+            <summary>设置 Control.get_DefaultMaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultMinimumSize">
+            <summary>设置 Control.get_DefaultMinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultMinimumSizeGet">
+            <summary>设置 Control.get_DefaultMinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultPadding">
+            <summary>设置 Control.get_DefaultPadding(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultPaddingGet">
+            <summary>设置 Control.get_DefaultPadding(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DefaultSize">
+            <summary>设置 UserControl.get_DefaultSize(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DefaultSizeGet">
+            <summary>设置 UserControl.get_DefaultSize(UserControl this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.DestroyHandle">
+            <summary>设置 Control.DestroyHandle(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DestroyHandle01">
+            <summary>设置 Control.DestroyHandle(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DisplayRectangle">
+            <summary>设置 ScrollableControl.get_DisplayRectangle(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DisplayRectangleGet">
+            <summary>设置 ScrollableControl.get_DisplayRectangle(ScrollableControl this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.Dispose(System.Boolean)">
+            <summary>设置 ContainerControl.Dispose(ContainerControl this, Boolean disposing) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DisposeBoolean">
+            <summary>设置 ContainerControl.Dispose(ContainerControl this, Boolean disposing) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Dock">
+            <summary>设置 Control.get_Dock(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DockGet">
+            <summary>设置 Control.get_Dock(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DockSetDockStyle">
+            <summary>设置 Control.set_Dock(Control this, DockStyle value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.DoubleBuffered">
+            <summary>设置 Control.get_DoubleBuffered(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DoubleBufferedGet">
+            <summary>设置 Control.get_DoubleBuffered(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.DoubleBufferedSetBoolean">
+            <summary>设置 Control.set_DoubleBuffered(Control this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Focused">
+            <summary>设置 Control.get_Focused(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.FocusedGet">
+            <summary>设置 Control.get_Focused(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Font">
+            <summary>设置 Control.get_Font(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.FontGet">
+            <summary>设置 Control.get_Font(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.FontSetFont">
+            <summary>设置 Control.set_Font(Control this, Font value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.ForeColor">
+            <summary>设置 Control.get_ForeColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ForeColorGet">
+            <summary>设置 Control.get_ForeColor(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ForeColorSetColor">
+            <summary>设置 Control.set_ForeColor(Control this, Color value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.GetAccessibilityObjectById(System.Int32)">
+            <summary>设置 Control.GetAccessibilityObjectById(Control this, Int32 objectId) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.GetAccessibilityObjectByIdInt32">
+            <summary>设置 Control.GetAccessibilityObjectById(Control this, Int32 objectId) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.GetPreferredSize(System.Drawing.Size)">
+            <summary>设置 Control.GetPreferredSize(Control this, Size proposedSize) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.GetPreferredSizeSize">
+            <summary>设置 Control.GetPreferredSize(Control this, Size proposedSize) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 Control.GetScaledBounds(Control this, Rectangle bounds, SizeF factor, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>设置 Control.GetScaledBounds(Control this, Rectangle bounds, SizeF factor, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.GetService(System.Type)">
+            <summary>设置 Component.GetService(Component this, Type service) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.GetServiceType">
+            <summary>设置 Component.GetService(Component this, Type service) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.ImeModeBase">
+            <summary>设置 Control.get_ImeModeBase(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ImeModeBaseGet">
+            <summary>设置 Control.get_ImeModeBase(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ImeModeBaseSetImeMode">
+            <summary>设置 Control.set_ImeModeBase(Control this, ImeMode value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.InitLayout">
+            <summary>设置 Control.InitLayout(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.InitLayout01">
+            <summary>设置 Control.InitLayout(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.InitializeStub">
+            <summary>初始化 type StubUserControlBase 的新实例</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.IsInputChar(System.Char)">
+            <summary>设置 Control.IsInputChar(Control this, Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.IsInputCharChar">
+            <summary>设置 Control.IsInputChar(Control this, Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>设置 Control.IsInputKey(Control this, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.IsInputKeyKeys">
+            <summary>设置 Control.IsInputKey(Control this, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.LayoutEngine">
+            <summary>设置 Control.get_LayoutEngine(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.LayoutEngineGet">
+            <summary>设置 Control.get_LayoutEngine(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.MaximumSize">
+            <summary>设置 Control.get_MaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.MaximumSizeGet">
+            <summary>设置 Control.get_MaximumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.MaximumSizeSetSize">
+            <summary>设置 Control.set_MaximumSize(Control this, Size value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.MinimumSize">
+            <summary>设置 Control.get_MinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.MinimumSizeGet">
+            <summary>设置 Control.get_MinimumSize(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.MinimumSizeSetSize">
+            <summary>设置 Control.set_MinimumSize(Control this, Size value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>设置 Control.NotifyInvalidate(Control this, Rectangle invalidatedArea) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.NotifyInvalidateRectangle">
+            <summary>设置 Control.NotifyInvalidate(Control this, Rectangle invalidatedArea) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnAutoSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnAutoSizeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnAutoSizeChangedEventArgs">
+            <summary>设置 Control.OnAutoSizeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnAutoValidateChanged(System.EventArgs)">
+            <summary>设置 ContainerControl.OnAutoValidateChanged(ContainerControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnAutoValidateChangedEventArgs">
+            <summary>设置 ContainerControl.OnAutoValidateChanged(ContainerControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnBackColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnBackColorChangedEventArgs">
+            <summary>设置 Control.OnBackColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackgroundImageChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnBackgroundImageChangedEventArgs">
+            <summary>设置 Control.OnBackgroundImageChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>设置 Control.OnBackgroundImageLayoutChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>设置 Control.OnBackgroundImageLayoutChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnBindingContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnBindingContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnBindingContextChangedEventArgs">
+            <summary>设置 Control.OnBindingContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnCausesValidationChanged(System.EventArgs)">
+            <summary>设置 Control.OnCausesValidationChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnCausesValidationChangedEventArgs">
+            <summary>设置 Control.OnCausesValidationChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>设置 Control.OnChangeUICues(Control this, UICuesEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnChangeUICuesUICuesEventArgs">
+            <summary>设置 Control.OnChangeUICues(Control this, UICuesEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnClick(System.EventArgs)">
+            <summary>设置 Control.OnClick(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnClickEventArgs">
+            <summary>设置 Control.OnClick(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnClientSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnClientSizeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnClientSizeChangedEventArgs">
+            <summary>设置 Control.OnClientSizeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>设置 Control.OnContextMenuStripChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnContextMenuStripChangedEventArgs">
+            <summary>设置 Control.OnContextMenuStripChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>设置 Control.OnControlAdded(Control this, ControlEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnControlAddedControlEventArgs">
+            <summary>设置 Control.OnControlAdded(Control this, ControlEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>设置 Control.OnControlRemoved(Control this, ControlEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnControlRemovedControlEventArgs">
+            <summary>设置 Control.OnControlRemoved(Control this, ControlEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnCreateControl">
+            <summary>设置 UserControl.OnCreateControl(UserControl this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnCreateControl01">
+            <summary>设置 UserControl.OnCreateControl(UserControl this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnCursorChanged(System.EventArgs)">
+            <summary>设置 Control.OnCursorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnCursorChangedEventArgs">
+            <summary>设置 Control.OnCursorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDataContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnDataContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDataContextChangedEventArgs">
+            <summary>设置 Control.OnDataContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDockChanged(System.EventArgs)">
+            <summary>设置 Control.OnDockChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDockChangedEventArgs">
+            <summary>设置 Control.OnDockChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDoubleClick(System.EventArgs)">
+            <summary>设置 Control.OnDoubleClick(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDoubleClickEventArgs">
+            <summary>设置 Control.OnDoubleClick(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDpiChangedAfterParent(System.EventArgs)">
+            <summary>设置 Control.OnDpiChangedAfterParent(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDpiChangedAfterParentEventArgs">
+            <summary>设置 Control.OnDpiChangedAfterParent(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDpiChangedBeforeParent(System.EventArgs)">
+            <summary>设置 Control.OnDpiChangedBeforeParent(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDpiChangedBeforeParentEventArgs">
+            <summary>设置 Control.OnDpiChangedBeforeParent(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 UserControlBase.OnDragDrop(UserControlBase this, DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDragDropDragEventArgs">
+            <summary>设置 UserControlBase.OnDragDrop(UserControlBase this, DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 UserControlBase.OnDragEnter(UserControlBase this, DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDragEnterDragEventArgs">
+            <summary>设置 UserControlBase.OnDragEnter(UserControlBase this, DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDragLeave(System.EventArgs)">
+            <summary>设置 Control.OnDragLeave(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDragLeaveEventArgs">
+            <summary>设置 Control.OnDragLeave(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>设置 Control.OnDragOver(Control this, DragEventArgs drgevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnDragOverDragEventArgs">
+            <summary>设置 Control.OnDragOver(Control this, DragEventArgs drgevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnEnabledChanged(System.EventArgs)">
+            <summary>设置 Control.OnEnabledChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnEnabledChangedEventArgs">
+            <summary>设置 Control.OnEnabledChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnEnter(System.EventArgs)">
+            <summary>设置 Control.OnEnter(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnEnterEventArgs">
+            <summary>设置 Control.OnEnter(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnFontChanged(System.EventArgs)">
+            <summary>设置 ContainerControl.OnFontChanged(ContainerControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnFontChangedEventArgs">
+            <summary>设置 ContainerControl.OnFontChanged(ContainerControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnForeColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnForeColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnForeColorChangedEventArgs">
+            <summary>设置 Control.OnForeColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>设置 Control.OnGiveFeedback(Control this, GiveFeedbackEventArgs gfbevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>设置 Control.OnGiveFeedback(Control this, GiveFeedbackEventArgs gfbevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnGotFocus(System.EventArgs)">
+            <summary>设置 Control.OnGotFocus(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnGotFocusEventArgs">
+            <summary>设置 Control.OnGotFocus(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnHandleCreated(System.EventArgs)">
+            <summary>设置 Control.OnHandleCreated(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnHandleCreatedEventArgs">
+            <summary>设置 Control.OnHandleCreated(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnHandleDestroyed(System.EventArgs)">
+            <summary>设置 Control.OnHandleDestroyed(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnHandleDestroyedEventArgs">
+            <summary>设置 Control.OnHandleDestroyed(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>设置 Control.OnHelpRequested(Control this, HelpEventArgs hevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnHelpRequestedHelpEventArgs">
+            <summary>设置 Control.OnHelpRequested(Control this, HelpEventArgs hevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnImeModeChanged(System.EventArgs)">
+            <summary>设置 Control.OnImeModeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnImeModeChangedEventArgs">
+            <summary>设置 Control.OnImeModeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>设置 Control.OnInvalidated(Control this, InvalidateEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnInvalidatedInvalidateEventArgs">
+            <summary>设置 Control.OnInvalidated(Control this, InvalidateEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>设置 Control.OnKeyDown(Control this, KeyEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnKeyDownKeyEventArgs">
+            <summary>设置 Control.OnKeyDown(Control this, KeyEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>设置 Control.OnKeyPress(Control this, KeyPressEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnKeyPressKeyPressEventArgs">
+            <summary>设置 Control.OnKeyPress(Control this, KeyPressEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>设置 Control.OnKeyUp(Control this, KeyEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnKeyUpKeyEventArgs">
+            <summary>设置 Control.OnKeyUp(Control this, KeyEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>设置 ContainerControl.OnLayout(ContainerControl this, LayoutEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnLayoutLayoutEventArgs">
+            <summary>设置 ContainerControl.OnLayout(ContainerControl this, LayoutEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnLeave(System.EventArgs)">
+            <summary>设置 Control.OnLeave(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnLeaveEventArgs">
+            <summary>设置 Control.OnLeave(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnLoad(System.EventArgs)">
+            <summary>设置 UserControl.OnLoad(UserControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnLoadEventArgs">
+            <summary>设置 UserControl.OnLoad(UserControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnLocationChanged(System.EventArgs)">
+            <summary>设置 Control.OnLocationChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnLocationChangedEventArgs">
+            <summary>设置 Control.OnLocationChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnLostFocus(System.EventArgs)">
+            <summary>设置 Control.OnLostFocus(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnLostFocusEventArgs">
+            <summary>设置 Control.OnLostFocus(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMarginChanged(System.EventArgs)">
+            <summary>设置 Control.OnMarginChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMarginChangedEventArgs">
+            <summary>设置 Control.OnMarginChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>设置 Control.OnMouseCaptureChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseCaptureChangedEventArgs">
+            <summary>设置 Control.OnMouseCaptureChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseClick(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseClickMouseEventArgs">
+            <summary>设置 Control.OnMouseClick(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseDoubleClick(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseDoubleClickMouseEventArgs">
+            <summary>设置 Control.OnMouseDoubleClick(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 UserControl.OnMouseDown(UserControl this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseDownMouseEventArgs">
+            <summary>设置 UserControl.OnMouseDown(UserControl this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseEnter(System.EventArgs)">
+            <summary>设置 Control.OnMouseEnter(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseEnterEventArgs">
+            <summary>设置 Control.OnMouseEnter(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseHover(System.EventArgs)">
+            <summary>设置 Control.OnMouseHover(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseHoverEventArgs">
+            <summary>设置 Control.OnMouseHover(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseLeave(System.EventArgs)">
+            <summary>设置 Control.OnMouseLeave(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseLeaveEventArgs">
+            <summary>设置 Control.OnMouseLeave(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseMove(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseMoveMouseEventArgs">
+            <summary>设置 Control.OnMouseMove(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 Control.OnMouseUp(Control this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseUpMouseEventArgs">
+            <summary>设置 Control.OnMouseUp(Control this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>设置 ScrollableControl.OnMouseWheel(ScrollableControl this, MouseEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMouseWheelMouseEventArgs">
+            <summary>设置 ScrollableControl.OnMouseWheel(ScrollableControl this, MouseEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnMove(System.EventArgs)">
+            <summary>设置 ContainerControl.OnMove(ContainerControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnMoveEventArgs">
+            <summary>设置 ContainerControl.OnMove(ContainerControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>设置 Control.OnNotifyMessage(Control this, Message m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnNotifyMessageMessage">
+            <summary>设置 Control.OnNotifyMessage(Control this, Message m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnPaddingChanged(System.EventArgs)">
+            <summary>设置 ScrollableControl.OnPaddingChanged(ScrollableControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnPaddingChangedEventArgs">
+            <summary>设置 ScrollableControl.OnPaddingChanged(ScrollableControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPaint(Control this, PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 ScrollableControl.OnPaintBackground(ScrollableControl this, PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnPaintBackgroundPaintEventArgs">
+            <summary>设置 ScrollableControl.OnPaintBackground(ScrollableControl this, PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnPaintPaintEventArgs">
+            <summary>设置 Control.OnPaint(Control this, PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentBackColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBackColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentBackColorChangedEventArgs">
+            <summary>设置 Control.OnParentBackColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBackgroundImageChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentBackgroundImageChangedEventArgs">
+            <summary>设置 Control.OnParentBackgroundImageChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentBindingContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentBindingContextChangedEventArgs">
+            <summary>设置 Control.OnParentBindingContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentChanged(System.EventArgs)">
+            <summary>设置 ContainerControl.OnParentChanged(ContainerControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentChangedEventArgs">
+            <summary>设置 ContainerControl.OnParentChanged(ContainerControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentCursorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentCursorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentCursorChangedEventArgs">
+            <summary>设置 Control.OnParentCursorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentDataContextChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentDataContextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentDataContextChangedEventArgs">
+            <summary>设置 Control.OnParentDataContextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentEnabledChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentEnabledChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentEnabledChangedEventArgs">
+            <summary>设置 Control.OnParentEnabledChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentFontChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentFontChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentFontChangedEventArgs">
+            <summary>设置 Control.OnParentFontChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentForeColorChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentForeColorChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentForeColorChangedEventArgs">
+            <summary>设置 Control.OnParentForeColorChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentRightToLeftChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentRightToLeftChangedEventArgs">
+            <summary>设置 Control.OnParentRightToLeftChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnParentVisibleChanged(System.EventArgs)">
+            <summary>设置 Control.OnParentVisibleChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnParentVisibleChangedEventArgs">
+            <summary>设置 Control.OnParentVisibleChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>设置 Control.OnPreviewKeyDown(Control this, PreviewKeyDownEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>设置 Control.OnPreviewKeyDown(Control this, PreviewKeyDownEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>设置 Control.OnPrint(Control this, PaintEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnPrintPaintEventArgs">
+            <summary>设置 Control.OnPrint(Control this, PaintEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>设置 Control.OnQueryContinueDrag(Control this, QueryContinueDragEventArgs qcdevent) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>设置 Control.OnQueryContinueDrag(Control this, QueryContinueDragEventArgs qcdevent) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnRegionChanged(System.EventArgs)">
+            <summary>设置 Control.OnRegionChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnRegionChangedEventArgs">
+            <summary>设置 Control.OnRegionChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnResize(System.EventArgs)">
+            <summary>设置 UserControl.OnResize(UserControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnResizeEventArgs">
+            <summary>设置 UserControl.OnResize(UserControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnRightToLeftChanged(System.EventArgs)">
+            <summary>设置 ScrollableControl.OnRightToLeftChanged(ScrollableControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnRightToLeftChangedEventArgs">
+            <summary>设置 ScrollableControl.OnRightToLeftChanged(ScrollableControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>设置 ScrollableControl.OnScroll(ScrollableControl this, ScrollEventArgs se) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnScrollScrollEventArgs">
+            <summary>设置 ScrollableControl.OnScroll(ScrollableControl this, ScrollEventArgs se) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnSizeChanged(System.EventArgs)">
+            <summary>设置 Control.OnSizeChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnSizeChangedEventArgs">
+            <summary>设置 Control.OnSizeChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnStyleChanged(System.EventArgs)">
+            <summary>设置 Control.OnStyleChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnStyleChangedEventArgs">
+            <summary>设置 Control.OnStyleChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnSystemColorsChanged(System.EventArgs)">
+            <summary>设置 Control.OnSystemColorsChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnSystemColorsChangedEventArgs">
+            <summary>设置 Control.OnSystemColorsChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnTabIndexChanged(System.EventArgs)">
+            <summary>设置 Control.OnTabIndexChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnTabIndexChangedEventArgs">
+            <summary>设置 Control.OnTabIndexChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnTabStopChanged(System.EventArgs)">
+            <summary>设置 Control.OnTabStopChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnTabStopChangedEventArgs">
+            <summary>设置 Control.OnTabStopChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnTextChanged(System.EventArgs)">
+            <summary>设置 Control.OnTextChanged(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnTextChangedEventArgs">
+            <summary>设置 Control.OnTextChanged(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnValidated(System.EventArgs)">
+            <summary>设置 Control.OnValidated(Control this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnValidatedEventArgs">
+            <summary>设置 Control.OnValidated(Control this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>设置 Control.OnValidating(Control this, CancelEventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnValidatingCancelEventArgs">
+            <summary>设置 Control.OnValidating(Control this, CancelEventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.OnVisibleChanged(System.EventArgs)">
+            <summary>设置 ScrollableControl.OnVisibleChanged(ScrollableControl this, EventArgs e) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.OnVisibleChangedEventArgs">
+            <summary>设置 ScrollableControl.OnVisibleChanged(ScrollableControl this, EventArgs e) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>设置 Control.PreProcessMessage(Control this, Message* msg) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.PreProcessMessageMessageRef">
+            <summary>设置 Control.PreProcessMessage(Control this, Message* msg) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>设置 ContainerControl.ProcessCmdKey(ContainerControl this, Message* msg, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessCmdKeyMessageRefKeys">
+            <summary>设置 ContainerControl.ProcessCmdKey(ContainerControl this, Message* msg, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessDialogChar(System.Char)">
+            <summary>设置 ContainerControl.ProcessDialogChar(ContainerControl this, Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessDialogCharChar">
+            <summary>设置 ContainerControl.ProcessDialogChar(ContainerControl this, Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>设置 ContainerControl.ProcessDialogKey(ContainerControl this, Keys keyData) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessDialogKeyKeys">
+            <summary>设置 ContainerControl.ProcessDialogKey(ContainerControl this, Keys keyData) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyEventArgs(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessKeyEventArgsMessageRef">
+            <summary>设置 Control.ProcessKeyEventArgs(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyMessage(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessKeyMessageMessageRef">
+            <summary>设置 Control.ProcessKeyMessage(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>设置 Control.ProcessKeyPreview(Control this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessKeyPreviewMessageRef">
+            <summary>设置 Control.ProcessKeyPreview(Control this, Message* m) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessMnemonic(System.Char)">
+            <summary>设置 ContainerControl.ProcessMnemonic(ContainerControl this, Char charCode) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessMnemonicChar">
+            <summary>设置 ContainerControl.ProcessMnemonic(ContainerControl this, Char charCode) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ProcessTabKey(System.Boolean)">
+            <summary>设置 ContainerControl.ProcessTabKey(ContainerControl this, Boolean forward) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ProcessTabKeyBoolean">
+            <summary>设置 ContainerControl.ProcessTabKey(ContainerControl this, Boolean forward) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.Refresh">
+            <summary>设置 Control.Refresh(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.Refresh01">
+            <summary>设置 Control.Refresh(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.RescaleConstantsForDpi(System.Int32,System.Int32)">
+            <summary>设置 ContainerControl.RescaleConstantsForDpi(ContainerControl this, Int32 deviceDpiOld, Int32 deviceDpiNew) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.RescaleConstantsForDpiInt32Int32">
+            <summary>设置 ContainerControl.RescaleConstantsForDpi(ContainerControl this, Int32 deviceDpiOld, Int32 deviceDpiNew) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ResetBackColor">
+            <summary>设置 Control.ResetBackColor(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ResetBackColor01">
+            <summary>设置 Control.ResetBackColor(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ResetCursor">
+            <summary>设置 Control.ResetCursor(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ResetCursor01">
+            <summary>设置 Control.ResetCursor(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ResetFont">
+            <summary>设置 Control.ResetFont(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ResetFont01">
+            <summary>设置 Control.ResetFont(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ResetForeColor">
+            <summary>设置 Control.ResetForeColor(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ResetForeColor01">
+            <summary>设置 Control.ResetForeColor(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ResetRightToLeft">
+            <summary>设置 Control.ResetRightToLeft(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ResetRightToLeft01">
+            <summary>设置 Control.ResetRightToLeft(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ResetText">
+            <summary>设置 Control.ResetText(Control this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ResetText01">
+            <summary>设置 Control.ResetText(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.RightToLeft">
+            <summary>设置 Control.get_RightToLeft(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.RightToLeftGet">
+            <summary>设置 Control.get_RightToLeft(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.RightToLeftSetRightToLeft">
+            <summary>设置 Control.set_RightToLeft(Control this, RightToLeft value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.ScaleChildren">
+            <summary>设置 Control.get_ScaleChildren(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ScaleChildrenGet">
+            <summary>设置 Control.get_ScaleChildren(Control this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 ScrollableControl.ScaleControl(ScrollableControl this, SizeF factor, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ScaleControlSizeFBoundsSpecified">
+            <summary>设置 ScrollableControl.ScaleControl(ScrollableControl this, SizeF factor, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ScaleCore(System.Single,System.Single)">
+            <summary>设置 ScrollableControl.ScaleCore(ScrollableControl this, Single dx, Single dy) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ScaleCoreSingleSingle">
+            <summary>设置 ScrollableControl.ScaleCore(ScrollableControl this, Single dx, Single dy) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ScaleMinMaxSize(System.Single,System.Single,System.Boolean)">
+            <summary>设置 ContainerControl.ScaleMinMaxSize(ContainerControl this, Single xScaleFactor, Single yScaleFactor, Boolean updateContainerSize) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ScaleMinMaxSizeSingleSingleBoolean">
+            <summary>设置 ContainerControl.ScaleMinMaxSize(ContainerControl this, Single xScaleFactor, Single yScaleFactor, Boolean updateContainerSize) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>设置 ScrollableControl.ScrollToControl(ScrollableControl this, Control activeControl) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ScrollToControlControl">
+            <summary>设置 ScrollableControl.ScrollToControl(ScrollableControl this, Control activeControl) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.Select(System.Boolean,System.Boolean)">
+            <summary>设置 ContainerControl.Select(ContainerControl this, Boolean directed, Boolean forward) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SelectBooleanBoolean">
+            <summary>设置 ContainerControl.Select(ContainerControl this, Boolean directed, Boolean forward) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>设置 Control.SetBoundsCore(Control this, Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>设置 Control.SetBoundsCore(Control this, Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>设置 Control.SetClientSizeCore(Control this, Int32 x, Int32 y) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SetClientSizeCoreInt32Int32">
+            <summary>设置 Control.SetClientSizeCore(Control this, Int32 x, Int32 y) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.SetVisibleCore(System.Boolean)">
+            <summary>设置 Control.SetVisibleCore(Control this, Boolean value) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SetVisibleCoreBoolean">
+            <summary>设置 Control.SetVisibleCore(Control this, Boolean value) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.ShowFocusCues">
+            <summary>设置 Control.get_ShowFocusCues(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ShowFocusCuesGet">
+            <summary>设置 Control.get_ShowFocusCues(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.ShowKeyboardCues">
+            <summary>设置 Control.get_ShowKeyboardCues(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ShowKeyboardCuesGet">
+            <summary>设置 Control.get_ShowKeyboardCues(Control this) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Site">
+            <summary>设置 Control.get_Site(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SiteGet">
+            <summary>设置 Control.get_Site(Control this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SiteSetISite">
+            <summary>设置 Control.set_Site(Control this, ISite value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.SizeFromClientSize(System.Drawing.Size)">
+            <summary>设置 Control.SizeFromClientSize(Control this, Size clientSize) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.SizeFromClientSizeSize">
+            <summary>设置 Control.SizeFromClientSize(Control this, Size clientSize) 的 stub</summary>
+        </member>
+        <member name="P:UserControlBase.Fakes.StubUserControlBase.Text">
+            <summary>设置 UserControl.get_Text(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.TextGet">
+            <summary>设置 UserControl.get_Text(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.TextSetString">
+            <summary>设置 UserControl.set_Text(UserControl this, String value) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ToString">
+            <summary>设置 Component.ToString(Component this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ToString01">
+            <summary>设置 Component.ToString(Component this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.UpdateDefaultButton">
+            <summary>设置 ContainerControl.UpdateDefaultButton(ContainerControl this) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.UpdateDefaultButton01">
+            <summary>设置 ContainerControl.UpdateDefaultButton(ContainerControl this) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ValidateChildren">
+            <summary>设置 UserControl.ValidateChildren(UserControl this) 的 存根</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>设置 UserControl.ValidateChildren(UserControl this, ValidationConstraints validationConstraints) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ValidateChildren01">
+            <summary>设置 UserControl.ValidateChildren(UserControl this) 的 stub</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.ValidateChildrenValidationConstraints">
+            <summary>设置 UserControl.ValidateChildren(UserControl this, ValidationConstraints validationConstraints) 的 stub</summary>
+        </member>
+        <member name="M:UserControlBase.Fakes.StubUserControlBase.WndProc(System.Windows.Forms.Message@)">
+            <summary>设置 UserControl.WndProc(UserControl this, Message* m) 的 存根</summary>
+        </member>
+        <member name="F:UserControlBase.Fakes.StubUserControlBase.WndProcMessageRef">
+            <summary>设置 UserControl.WndProc(UserControl this, Message* m) 的 stub</summary>
+        </member>
+    </members>
+</doc>

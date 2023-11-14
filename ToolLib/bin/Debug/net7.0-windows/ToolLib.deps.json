@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ToolLib/1.0.0": {
+        "dependencies": {
+          "UserControlBase": "1.0.0"
+        },
+        "runtime": {
+          "ToolLib.dll": {}
+        }
+      },
+      "AssmblyCenter/1.0.0": {
+        "runtime": {
+          "AssmblyCenter.dll": {}
+        }
+      },
+      "UserControlBase/1.0.0": {
+        "dependencies": {
+          "AssmblyCenter": "1.0.0"
+        },
+        "runtime": {
+          "UserControlBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToolLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AssmblyCenter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserControlBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
